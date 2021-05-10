@@ -1,12 +1,14 @@
 # React Fortune Web
-![GitHub branch checks state](https://img.shields.io/github/checks-status/junbach/react-fortune/master)
-![W3C Validation](https://img.shields.io/w3c-validation/html?preset=HTML&targetUrl=https%3A%2F%2Freact-fortune.vercel.app)
-![GitHub top language](https://img.shields.io/github/languages/top/junbach/react-fortune)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/junbach/react-fortune)
-![GitHub](https://img.shields.io/github/license/junbach/react-fortune)
-![GitHub package.json version](https://img.shields.io/github/package-json/v/junbach/react-fortune)
-![GitHub last commit](https://img.shields.io/github/last-commit/junbach/react-fortune)
-![npm type definitions](https://img.shields.io/npm/types/typescript)
+![GitHub branch checks state](https://img.shields.io/github/checks-status/junbach/react-fortune/master?style=for-the-badge)
+![W3C Validation](https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Freact-fortune.vercel.app&style=for-the-badge)
+![GitHub top language](https://img.shields.io/github/languages/top/junbach/react-fortune?style=for-the-badge)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/junbach/react-fortune?style=for-the-badge)
+![GitHub](https://img.shields.io/github/license/junbach/react-fortune?style=for-the-badge)
+![GitHub package.json version](https://img.shields.io/github/package-json/v/junbach/react-fortune?style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/junbach/react-fortune?style=for-the-badge)
+![npm type definitions](https://img.shields.io/npm/types/typescript?style=for-the-badge)
+![Lines of code](https://img.shields.io/tokei/lines/github/junbach/react-fortune?style=for-the-badge)
+![Website](https://img.shields.io/website?style=for-the-badge&up_message=online&url=https%3A%2F%2Freact-fortune.vercel.app)
 
 ## Available Scripts
 
