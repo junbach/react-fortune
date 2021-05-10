@@ -1,0 +1,103 @@
+{
+  "app": {
+    "title": {
+      "id": "app.title",
+      "defaultMessage": "Fortune React"
+    },
+    "footer": {
+      "id": "app.footer",
+      "defaultMessage": "React Fortune ©{year}"
+    },
+    "lang": {
+      "vi": {
+        "id": "app.lang.vi",
+        "defaultMessage": "Tiếng Việt"
+      },
+      "en": {
+        "id": "app.lang.en",
+        "defaultMessage": "English (US)"
+      }
+    }
+  },
+
+  "button": {
+    "cancel": {
+      "id": "button.cancel",
+      "defaultMessage": "Cancel"
+    },
+    "close": {
+      "id": "button.close",
+      "defaultMessage": "Close"
+    },
+    "back": {
+      "id": "button.back",
+      "defaultMessage": "Go back"
+    }
+  },
+  "error": {
+    "notProcess": {
+      "id": "error.notProcess",
+      "defaultMessage": "Sorry, your action could not be done"
+    },
+    "unavailable": {
+      "id": "error.unavailable",
+      "defaultMessage": "{function} is currently unavailable"
+    }
+  },
+  "sidebar": {
+    "menu": {
+      "home": {
+        "id": "sidebar.menu.home",
+        "defaultMessage": "Home"
+      },
+      "scheduler": {
+        "id": "sidebar.menu.scheduler",
+        "defaultMessage": "Scheduler"
+      },
+      "document": {
+        "id": "sidebar.menu.document",
+        "defaultMessage": "Find document"
+      },
+      "record": {
+        "id": "sidebar.menu.record",
+        "defaultMessage": "Record"
+      },
+      "contact": {
+        "id": "sidebar.menu.contact",
+        "defaultMessage": "Contact"
+      },
+      "survey": {
+        "id": "sidebar.menu.survey",
+        "defaultMessage": "Survey"
+      }
+    }
+  },
+  "page": {
+    "schedule": {
+      "timeline": {
+        "beingUpdated": {
+          "id": "page.schedule.timeline.beingUpdated",
+          "defaultMessage": "Being updated..."
+        }
+      },
+      "calendar": {
+        "urlBtn": {
+          "id": "page.schedule.calendar.urlBtn",
+          "defaultMessage": "Join online session"
+        }
+      }
+    },
+    "document": {
+      "view": {
+        "detail": {
+          "id": "page.document.view.detail",
+          "defaultMessage": "Detail view"
+        },
+        "simple": {
+          "id": "page.document.view.simple",
+          "defaultMessage": "Simple view"
+        }
+      }
+    }
+  }
+}

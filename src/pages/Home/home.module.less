@@ -1,0 +1,80 @@
+@import "node_modules/antd/es/style/themes/default.less";
+
+.bannerBlock {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  text-align: center;
+  background-color: #151d20;
+  border-color: #666;
+  background-image: url(/images/landing.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  transition: background-image 0.2s linear;
+
+  .textWrapper {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: 0;
+    right: 0;
+    color: @text-color-dark;
+    max-width: 845px;
+    height: 500px;
+    width: 80%;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+
+    .siteName {
+      display: block;
+      font-size: 14px;
+      line-height: 32px;
+      font-weight: 400;
+      color: @text-color-dark;
+    }
+
+    .siteSlogan {
+      font-size: 42px;
+      line-height: 80px;
+      text-indent: 2px;
+      font-weight: 600;
+      margin: 26px auto 38px;
+      overflow: hidden;
+      color: @text-color-dark;
+    }
+
+    .btn {
+      margin: 0 5px;
+    }
+  }
+
+  .particlesBlock {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: @screen-md) {
+  .bannerBlock {
+    background-attachment: inherit;
+
+    .textWrapper {
+      width: 90%;
+      height: 50%;
+
+      .siteName {
+        font-size: 12px;
+      }
+
+      .siteSlogan {
+        font-size: 24px;
+        line-height: 1.5;
+        margin: 12px 0;
+      }
+    }
+  }
+}

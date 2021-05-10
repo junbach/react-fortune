@@ -1,0 +1,25 @@
+{
+  "app.title": "Chinh phục React với Fortune DC",
+  "app.footer": "React Fortune ©{year}. Phát triển bằng React, Antd và nước ngọt",
+  "app.lang.en": "English (US)",
+  "app.lang.vi": "Tiếng Việt",
+
+  "button.close": "Đóng",
+  "button.cancel": "Huỷ",
+  "button.back": "Quay lại",
+  "error.notProcess": "Rất tiếc, tác vụ không thể thực hiện được.",
+  "error.unavailable": "Chức năng {function} hiện chưa được cập nhật",
+
+  "sidebar.menu.home": "Trang chủ",
+  "sidebar.menu.scheduler": "Lịch sharing",
+  "sidebar.menu.document": "Tìm tài liệu",
+  "sidebar.menu.contact": "Liên hệ hỗ trợ",
+  "sidebar.menu.record": "Record",
+  "sidebar.menu.survey": "Khảo sát",
+
+  "page.schedule.timeline.beingUpdated": "Đang được cập nhật...",
+  "page.schedule.calendar.urlBtn": "Tham gia khoá online",
+
+  "page.document.view.detail": "Hiện chi tiết",
+  "page.document.view.simple": "Hiện đơn giản"
+}

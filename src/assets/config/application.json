@@ -1,0 +1,10 @@
+{
+  "lang": "en",
+  "theme": "default",
+  "siteURL": "https://react-fortune.gitlab.io",
+  "siteName": "React Fortune",
+  "driveURL": "https://drive.google.com/embeddedfolderview?id=1jBYoHwNJBdlewKAd7xX1EfBvoKG27QbR",
+  "surveyURL": "https://docs.google.com/forms/d/e/1FAIpQLSe7RUNbiHzJjKtHlvIx72o33q0HoqN0JrH2--29ZHs6-q2ibA/viewform",
+  "recordPlaylist": "https://www.youtube.com/embed/videoseries?list=PLFWflhEZczZI1wP0qlVmlu2dv0g2y8aYi",
+  "disqus": "react-fortune"
+}
