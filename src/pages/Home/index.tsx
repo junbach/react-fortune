@@ -39,9 +39,9 @@ const HomePage: FunctionComponent = () => {
           <Link to={routePath.SCHEDULE} component={Button} className={styles.btn}>
             {intl.formatMessage(messages.sidebar.menu.scheduler)}
           </Link>
-          <Button ghost className={styles.btn} href={appConfig.surveyURL} target={"_blank"}>
-            {intl.formatMessage(messages.sidebar.menu.survey)}
-          </Button>
+          <Link to={routePath.SHARED_DOCUMENTS} className={styles.btn} component={Button}>
+            {intl.formatMessage(messages.sidebar.menu.document)}
+          </Link>
         </div>
       </RcQueueAnim>
       <Particles options={opts} className={styles.particlesBlock} />

@@ -1,12 +1,12 @@
-import { HeartFilled } from "@ant-design/icons";
-import { Layout, Typography } from "antd";
+import { GithubOutlined, HeartFilled } from "@ant-design/icons";
+import { Button, Layout, Typography } from "antd";
 import ReactLoveIcon from "components/utilities/LogoIcon";
 import dayjs from "dayjs";
 import React, { FunctionComponent } from "react";
 import { FormattedMessage } from "react-intl";
 import { BrowserRouter as Router } from "react-router-dom";
 import { Link } from "react-router-dom";
-import { routePath } from "utils/config";
+import { appConfig, routePath } from "utils/config";
 
 import { messages } from "../utils/locale";
 import styles from "./app.module.less";
@@ -32,6 +32,7 @@ const AppLayout: FunctionComponent = () => (
       <Layout className={styles.appLayout}>
         <Header className={styles.appHeader}>
           <div className={styles.headerRight}>
+            <Button icon={<GithubOutlined />} href={appConfig.repoURL} target={"_blank"} className={styles.gitButton} />
             <LocaleSelect />
           </div>
         </Header>
