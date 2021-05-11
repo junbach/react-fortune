@@ -9,7 +9,7 @@ import React, { FunctionComponent } from "react";
 import { useIntl } from "react-intl";
 import { Link } from "react-router-dom";
 import Particles, { ISourceOptions } from "react-tsparticles";
-import { appConfig, routePath } from "utils/config";
+import { routePath } from "utils/config";
 import { messages } from "utils/locale";
 
 import styles from "./home.module.less";
@@ -17,12 +17,6 @@ import styles from "./home.module.less";
 const { Title, Text } = Typography;
 const HomePage: FunctionComponent = () => {
   const intl = useIntl();
-  // const surveyBtnFn = () =>
-  //     message.warn(
-  //         intl.formatMessage(messages.error.unavailable, {
-  //             function: intl.formatMessage(messages.sidebar.menu.survey),
-  //         }),
-  //     );
   const opts = particlesOptions as ISourceOptions;
   return (
     <div className={styles.bannerBlock}>

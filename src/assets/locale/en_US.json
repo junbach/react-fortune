@@ -18,6 +18,8 @@
   "sidebar.menu.record": "Session record",
 
   "page.schedule.timeline.beingUpdated": "Being updated...",
+  "page.schedule.timeline.drawerTitle": "Session timeline",
+  "page.schedule.timeline.openDrawerBtn": "View timeline and sharing contents",
   "page.schedule.calendar.urlBtn": "Join online session",
 
   "page.document.view.detail": "Detail view",

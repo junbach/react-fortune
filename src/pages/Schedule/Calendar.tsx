@@ -5,7 +5,7 @@ import { Badge, Button, Popover, Tag, Typography } from "antd";
 import generateCalendar from "antd/es/calendar/generateCalendar";
 import dayjs, { Dayjs } from "dayjs";
 import dayjsGenerateConfig from "rc-picker/lib/generate/dayjs";
-import React, { FunctionComponent, memo } from "react";
+import React, { FunctionComponent, memo, ReactNode } from "react";
 import { FormattedMessage } from "react-intl";
 import { SessionData } from "utils/data/course-session";
 import { messages } from "utils/locale";
@@ -37,7 +37,7 @@ const PopoverContent: FunctionComponent<{ data: SessionData }> = ({ data }) => {
     </div>
   );
 };
-const dateCellRenderFn = (sessions: SessionData[]) => (date: Dayjs) => {
+export const dateCellRenderFn = (sessions: SessionData[]) => (date: Dayjs): ReactNode | undefined => {
   const data = sessions.find(ss => ss.date && dayjs(ss.date).isSame(date, "day"));
   if (data) {
     const title = (
@@ -59,8 +59,4 @@ const dateCellRenderFn = (sessions: SessionData[]) => (date: Dayjs) => {
   return undefined;
 };
 
-const CalendarComponent: FunctionComponent<{ sessions: SessionData[] }> = ({ sessions }) => {
-  return <CalendarPanel dateCellRender={dateCellRenderFn(sessions)} />;
-};
-
-export default memo(CalendarComponent);
+export default memo(CalendarPanel);

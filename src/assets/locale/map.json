@@ -78,6 +78,14 @@
         "beingUpdated": {
           "id": "page.schedule.timeline.beingUpdated",
           "defaultMessage": "Being updated..."
+        },
+        "drawerTitle": {
+          "id": "page.schedule.timeline.drawerTitle",
+          "defaultMessage": "Session timeline"
+        },
+        "openDrawerBtn": {
+          "id": "page.schedule.timeline.openDrawerBtn",
+          "defaultMessage": "View timeline"
         }
       },
       "calendar": {
